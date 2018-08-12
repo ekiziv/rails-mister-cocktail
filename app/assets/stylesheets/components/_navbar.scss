@@ -1,7 +1,10 @@
 /* Main navbar */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background: #E5E5E5;
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
@@ -13,6 +16,7 @@
 /* Logo */
 .navbar-wagon-brand img {
   height: 50px;
+  border-radius: 5px;
 }
 
 /* User Avatar */
@@ -29,6 +33,16 @@
   justify-content: space-between;
 }
 
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: 'Dancing Script'
+  }
+
+  }
+
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
@@ -39,6 +53,7 @@
 .navbar-wagon-link {
   color: #616668;
   font-size: 14px;
+  font-family: 'Dancing Script'
 }
 .navbar-wagon-link:hover {
   color: #da552f;
